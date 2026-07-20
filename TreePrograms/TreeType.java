@@ -1,5 +1,4 @@
 package TreePrograms;
-package com.rupesh.trees;
 public enum TreeType {
 
     OAK,
