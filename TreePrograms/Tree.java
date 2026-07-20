@@ -1,10 +1,13 @@
 package TreePrograms;
+
+import java.awt.Color;
+
 public class Tree {
     // Attributes of the Tree class
     int trunkdia; 
     int height;
     TreeType treeType;
-    static String treeColor = "green"; // Static attribute shared by all instances of the Tree class
+    static treeColor = new Color(34, 139, 34); // Static attribute for the color of the tree, initialized to a shade of green
     // Constructor for the Tree class
     Tree(int trunkdia, int height, TreeType treeType) {
         this.trunkdia = trunkdia;
