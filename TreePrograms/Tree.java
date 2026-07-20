@@ -1,10 +1,10 @@
 package TreePrograms;
-
 public class Tree {
     // Attributes of the Tree class
     int trunkdia; 
     int height;
     TreeType treeType;
+    static String treeColor = "green"; // Static attribute shared by all instances of the Tree class
     // Constructor for the Tree class
     Tree(int trunkdia, int height, TreeType treeType) {
         this.trunkdia = trunkdia;
@@ -23,10 +23,12 @@ public class Tree {
     // Method to announce if the tree is tall or not
     void announceTallTree() {
         if (this.height > 100) {
-            System.out.println("This is a tall tree.");
-        } else {
-            System.out.println("This is not a tall tree.");
-        }
+            System.out.println("This is a tall" + treeType + " tree.");
+        } 
     }
+    void announceTreeColor() {
+        System.out.println("The color of the tree is " + treeColor + ".");
+    }
+
 
 }
