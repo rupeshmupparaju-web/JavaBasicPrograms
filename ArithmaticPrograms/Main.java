@@ -1,4 +1,7 @@
-public class ArithmaticOps {
+package ArithmaticPrograms;
+
+
+public class Main {
 
 
 	public static void Main(String[]args) {

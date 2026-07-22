@@ -1,14 +1,13 @@
 package TreePrograms;
 
-import java.awt.Color;
+import java.awt.Color; //This imports the Color class from the java.awt package, which is used to represent colors in the RGB color model.
 
 public class Tree {
     // Attributes of the Tree class
     int trunkdia; 
     int height;
-    TreeType treeType;
-    static treeColor = new Color(34, 139, 34); // Static attribute for the color of the tree, initialized to a shade of green
-    // Constructor for the Tree class
+    TreeType treeType; //  This declares a variable of type TreeType, which is an enum defined in the TreeType.java file. The treeType variable will hold the type of the tree (e.g., OAK, MAPLE, PECAN, WALNUT, PINE).
+    Color treeColor = Color.green;   // Constructor for the Tree class
     Tree(int trunkdia, int height, TreeType treeType) {
         this.trunkdia = trunkdia;
         this.height = height;
